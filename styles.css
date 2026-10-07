@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.box {
+    flex: 0 0 calc((100% - 48px) / 4);
+    box-sizing: border-box;
+    aspect-ratio: 1;           
+    display: flex;             
+    align-items: center;
+    justify-content: center;
+    background: #989aa0;
+    border: 1px solid blue;    
+}
